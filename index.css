@@ -1,0 +1,46 @@
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-image: url(rock.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-attachment:fixed;
+    font-family: "Bebas Neue", serif;
+    
+}
+.main-content{
+      display:flex;
+      flex-direction:column;
+      row-gap:20px;
+      background-color: hsla(0, 1%, 40%, 0.322);
+      padding: 30px;
+      margin-top:70px ;
+      border-radius: 20px;
+}
+button:hover{
+    background-color: rgb(108, 104, 112);
+    color:rgb(92, 92, 93);
+    font-size: 1.2rem;
+}
+.sub-container{
+      display:flex;
+      flex-direction:column;
+      justify-content:center;
+      align-items:center;
+      row-gap:20px;
+      color: rgb(205, 209, 149);
+}
+/* .podra{
+    border-spacing:10 20px;
+    border-collapse:separate;
+    row-gap: 200px;
+/* helooooooooo */
+button{
+    width:10rem;
+    height: 1.5rem;
+    border:none;
+    border-radius:20px;
+    font-size:0.7rem;
+}
